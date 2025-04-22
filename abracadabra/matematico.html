@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Matemática</title>
+    <link rel="stylesheet" href="estilomatematico.css">
+</head>
+<body>
+    <div class="estilosinho">
+    <h1>Jogo de operações matemáticas</h1>
+    <h2>Resolva a equação abaixo</h2>
+</div>
+        <div class="principal">
+    <button onclick="equacao()">Iniciar Jogo</button>
+        <div class="escondido">
+            <p id="num1" class="jogo"></p>
+            <p id="operacao" class="jogo"></p>
+            <p id="num2" class="jogo"></p><br>
+            <input type="number" id="resposta" class="jogo" placeholder="Digite sua resposta"><br> 
+            <button onclick="verificar()" class="escondido2">Verifique aqui sua resposta.</button>
+            <p id="answer"></p>
+        </div>
+</div>
+    <script src="supermatematico.js"></script>
+</body>
+</html>
