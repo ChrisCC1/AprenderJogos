@@ -54,21 +54,21 @@ function udateW(){
 function lost(){
     if(e === me){
         document.getElementById('teclado').innerHTML= "VOCÊ PERDEU!"
-        document.getElementById('forcas').src='recursos/9.png';
+        document.getElementById('forcas').src='../recursos/9.png';
     }
 }
 
 function won(){
     if(wstatus === r){
         document.getElementById('teclado').innerHTML= "VOCÊ GANHOU!!"
-        document.getElementById('forcas').src='recursos/10.png';
+        document.getElementById('forcas').src='../recursos/10.png';
     }
 }
 
 function reset(){
     e = 0
     lc = []
-    document.getElementById('forcas').src='recursos/1.png';
+    document.getElementById('forcas').src='../recursos/1.png';
     random();
     showWord();
     udateW();
@@ -76,7 +76,7 @@ function reset(){
 }
 
 function forca(){
-    document.getElementById('forcas').src="recursos/" + e + ".png";
+    document.getElementById('forcas').src="../recursos/" + e + ".png";
 }
 
 document.getElementById('Merros').innerHTML = me;
