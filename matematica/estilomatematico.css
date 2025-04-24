@@ -1,0 +1,32 @@
+.jogo {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.escondido {
+    visibility: hidden;
+}
+.escondido2 {
+    visibility: hidden;
+}
+
+.principal {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.estilosinho {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+ 
+}
