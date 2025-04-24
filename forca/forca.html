@@ -6,14 +6,18 @@
     <link rel="stylesheet" href="forca.css">
     <title>Jogo da forca</title>
 </head>
-<body>
-    <h1>Jogo da forca</h1>
-    <p id="perguntas"></p>
-    <p id="wordS">word</p>
-    <img id="forcas" src="recursos/1.png" alt="">
-    <div id="error"><p>Maximo de erros -> <span id="erros">0</span> de <span id="Merros"></span></p></div>
-    <div id="teclado"></div>
-    <button id="reset" onclick="reset()">reset</button>
+<body style="background-color: #004aad;">
+    <div class="base">
+        <div class="screen">
+            <div id="error"><p>ERROS <br> <span id="erros">0</span> de <span id="Merros"></span></p></div>
+            <p id="perguntas"></p>
+            <p id="wordS">word</p>
+            <img id="forcas" src="../recursos/1.png" alt="">
+            <div id="teclado"></div>
+            <button id="reset" onclick="reset()">RESET</button>
+            </div>
+        </div>
+    </div>
     <script src="forca.js"></script>
 </body>
 </html>
