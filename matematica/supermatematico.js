@@ -36,5 +36,8 @@ function verificar() {
         document.getElementById("answer").textContent = "Parabéns! Você acertou!";
     } else {
         document.getElementById("answer").textContent = "Que pena! Você errou. A resposta correta é " + respostaCorreta;
-    }    
+    }  
+    setTimeout(() => {
+        document.getElementById("answer").textContent = "";
+    }, 3000);   
 }
